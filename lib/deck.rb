@@ -5,7 +5,7 @@ class Deck
   # All ranks, from 7 to ace
   # with %i %I - `:`, `,` are not needed
   # and may be unwanted in the resulting symbols
-  RANKS = (6..9).to_a + %I[jack queen king ace].freeze
+  RANKS = (7..10).to_a + %I[jack queen king ace].freeze
   # All for suits
   SUITS = %i[♥ ♦ ♣ ♠].freeze
   # SUITS = %i[hearts diamonds clubs spades].freeze

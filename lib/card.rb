@@ -8,6 +8,30 @@ class Card
     new(suit: suit, rank: rank)
   end
 
+  def self.from_string(value)
+    # Gets the last character from the string
+    short_suit = value[-1].to_sym
+
+    # Map it to a suit
+    suit = {
+      H: :hearts,
+      S: :spades,
+      C: :clubs,
+      D: :diamonds
+    }.fetch(short_suit)
+
+    # Map remainder to a face card, or fallback on numeric
+    # face = value[-1].to_sym
+    rank = {
+      A: :ace,
+      K: :king,
+      Q: :queen,
+      J: :jack
+    }.fetch(value[0].to_sym) { value[0..-2].to_i }
+
+    Card.build(suit, rank)
+  end
+
   private_class_method :new
 
   def initialize(suit:, rank:)

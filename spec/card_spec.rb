@@ -77,4 +77,26 @@ describe Card, :unit do
       expect(queen.rank).to be < king.rank
     end
   end
+
+  describe '.from_string' do
+    it 'parses numbers' do
+      expect(Card.from_string('7H')).to eq(Card.build(:hearts, 7))
+    end
+
+    it 'parses 10' do
+      expect(Card.from_string('10S')).to eq(Card.build(:spades, 10))
+    end
+
+    it 'parses jack' do
+      expect(Card.from_string('JC')).to eq(Card.build(:clubs, :jack))
+    end
+
+    it 'parses queen' do
+      expect(Card.from_string('QD')).to eq(Card.build(:diamonds, :queen))
+    end
+
+    it 'parses king' do
+      expect(Card.from_string('KC')).to eq(Card.build(:clubs, :king))
+    end
+  end
 end
