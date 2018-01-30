@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-01-30T19:27:06+00:00">2018-01-30T19:27:06+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-01-30T20:14:23+00:00">2018-01-30T20:14:23+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         7.15
+         7.23
        </span>
     </span> hits/line)
   </h2>
@@ -73,11 +73,11 @@
       <tr>
         <td class="strong"><a href="#3df5198e9b1aed5d30bdf06dfbcb483f2f6fab36" class="src_link" title="spec/card_spec.rb">spec/card_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>96</td>
+        <td>104</td>
         <td>53</td>
         <td>53</td>
         <td>0</td>
-        <td>2.0</td>
+        <td>2.2</td>
       </tr>
       
       <tr>
@@ -1205,88 +1205,136 @@
         <li class="covered" data-hits="1" data-linenumber="82">
           <span class="hits">1</span>
           
-          <code class="ruby">    it &#39;parses numbers&#39; do</code>
+          <code class="ruby">    def self.it_parses(string, as: as)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="83">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="5" data-linenumber="83">
+          <span class="hits">5</span>
           
-          <code class="ruby">      expect(Card.from_string(&#39;7H&#39;)).to eq(Card.build(:hearts, 7))</code>
+          <code class="ruby">      it &quot;parses #{string}&quot; do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="84">
+        <li class="covered" data-hits="5" data-linenumber="84">
+          <span class="hits">5</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">        expect(Card.from_string(string)).to eq(as)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="85">
           
           
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="86">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="86">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    it &#39;parses 10&#39; do</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="87">
-          <span class="hits">1</span>
-          
-          <code class="ruby">      expect(Card.from_string(&#39;10S&#39;)).to eq(Card.build(:spades, 10))</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="88">
+        <li class="never" data-hits="" data-linenumber="87">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="89">
+        <li class="covered" data-hits="1" data-linenumber="88">
+          <span class="hits">1</span>
           
+          <code class="ruby">    it_parses&#39;7H&#39;, as: Card.build(:hearts, 7)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="89">
+          <span class="hits">1</span>
           
-          <code class="ruby"></code>
+          <code class="ruby">    it_parses&#39;10S&#39;, as: Card.build(:spades, 10)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="90">
           <span class="hits">1</span>
           
-          <code class="ruby">    it &#39;parses face cards&#39; do</code>
+          <code class="ruby">    it_parses&#39;JC&#39;, as: Card.build(:clubs, :jack)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="91">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(Card.from_string(&#39;QD&#39;)).to eq(Card.build(:diamonds, :queen))</code>
+          <code class="ruby">    it_parses&#39;QD&#39;, as: Card.build(:diamonds, :queen)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="92">
           <span class="hits">1</span>
           
-          <code class="ruby">      expect(Card.from_string(&#39;JC&#39;)).to eq(Card.build(:clubs, :jack))</code>
+          <code class="ruby">    it_parses&#39;KC&#39;, as: Card.build(:clubs, :king)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="93">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="93">
           
-          <code class="ruby">      expect(Card.from_string(&#39;KC&#39;)).to eq(Card.build(:clubs, :king))</code>
+          
+          <code class="ruby">    #</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="94">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">    # it &#39;parses 10&#39; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="95">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    #   expect(Card.from_string(&#39;10S&#39;)).to eq(Card.build(:spades, 10))</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="96">
+          
+          
+          <code class="ruby">    # end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="97">
+          
+          
+          <code class="ruby">    #</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="98">
+          
+          
+          <code class="ruby">    # it &#39;parses face cards&#39; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="99">
+          
+          
+          <code class="ruby">    #   expect(Card.from_string(&#39;QD&#39;)).to eq(Card.build(:diamonds, :queen))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="100">
+          
+          
+          <code class="ruby">    #   expect(Card.from_string(&#39;JC&#39;)).to eq(Card.build(:clubs, :jack))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="101">
+          
+          
+          <code class="ruby">    #   expect(Card.from_string(&#39;KC&#39;)).to eq(Card.build(:clubs, :king))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="102">
+          
+          
+          <code class="ruby">    # end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="103">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="104">
           
           
           <code class="ruby">end</code>

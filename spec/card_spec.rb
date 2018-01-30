@@ -79,18 +79,15 @@ describe Card, :unit do
   end
 
   describe '.from_string', :aggregate_failures do
-    it 'parses numbers' do
-      expect(Card.from_string('7H')).to eq(Card.build(:hearts, 7))
+    def self.it_parses(string, as: as)
+      it "parses #{string}" do
+        expect(Card.from_string(string)).to eq(as)
+      end
     end
-
-    it 'parses 10' do
-      expect(Card.from_string('10S')).to eq(Card.build(:spades, 10))
-    end
-
-    it 'parses face cards' do
-      expect(Card.from_string('QD')).to eq(Card.build(:diamonds, :queen))
-      expect(Card.from_string('JC')).to eq(Card.build(:clubs, :jack))
-      expect(Card.from_string('KC')).to eq(Card.build(:clubs, :king))
-    end
+    it_parses'7H', as: Card.build(:hearts, 7)
+    it_parses'10S', as: Card.build(:spades, 10)
+    it_parses'JC', as: Card.build(:clubs, :jack)
+    it_parses'QD', as: Card.build(:diamonds, :queen)
+    it_parses'KC', as: Card.build(:clubs, :king)
   end
 end
