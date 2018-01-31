@@ -33,6 +33,14 @@ module ArrayMatchers
         .detect { |x, y| block_arg.call(x) + 1 != block_arg.call(y) }
     end
   end
+end
 
+module BeatingMatchers
+  extend RSpec::Matchers::DSL
+  matcher :beat do |losing_hand|
+    match do |winning_hand|
+      HighCard.beats?(hand(winning_hand), hand(losing_hand))
+    end
+  end
 end
 
