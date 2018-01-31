@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8e9e31c-396d-4019-91fb-09cb98839e4a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/spec/card_spec.rb" afterPath="$PROJECT_DIR$/spec/card_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/cli_spec.rb" afterPath="$PROJECT_DIR$/spec/cli_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,38 +24,18 @@
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_has_a_suit__Pluralsight_Rspec_course.coverage" NAME="Card has a suit: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517248916884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_shows_its_happiness__Pluralsight_Rspec_course.coverage" NAME="Deck.all shows its happiness: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517272546395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_a_king__Pluralsight_Rspec_course.coverage" NAME="Card a king: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517249612994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
-    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course.coverage" NAME="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517340425745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course.coverage" NAME="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517343262997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Run_spec__cli_spec___Pluralsight_Rspec_course.coverage" NAME="Run spec 'cli_spec': Pluralsight_Rspec_course Coverage Results" MODIFIED="1517226778183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_has_contiguous_ranks_by_suit__Pluralsight_Rspec_course.coverage" NAME="Deck.all has contiguous ranks by suit: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517321893754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_a_jack_ranks_higher_than_a_10__Pluralsight_Rspec_course.coverage" NAME="Card a jack ranks higher than a 10: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517249487459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deck.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/deck.rb">
+      <file leaf-file-name="cli_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/cli_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/card.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="18" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="card_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/card_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+            <state relative-caret-position="371">
+              <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -79,7 +59,6 @@
         <option value="$PROJECT_DIR$/bin/play" />
         <option value="$PROJECT_DIR$/.rspec" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/cli_spec.rb" />
         <option value="$PROJECT_DIR$/custom_matchers.rb" />
         <option value="$PROJECT_DIR$/spec/custom_matchers.rb" />
         <option value="$PROJECT_DIR$/spec/deck_spec.rb" />
@@ -88,6 +67,7 @@
         <option value="$PROJECT_DIR$/lib/deck.rb" />
         <option value="$PROJECT_DIR$/lib/card.rb" />
         <option value="$PROJECT_DIR$/spec/card_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/cli_spec.rb" />
       </list>
     </option>
   </component>
@@ -364,17 +344,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517184638413</updated>
-      <workItem from="1517184639904" duration="29659000" />
+      <workItem from="1517184639904" duration="30553000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.01.30 at 19h 10m 53s.xml">
-      <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.01.30 at 19h 11m 12s.xml">
-      <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.01.30 at 19h 12m 06s.xml">
       <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -399,9 +373,15 @@
     <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.01.30 at 19h 27m 06s.xml">
       <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.01.30 at 20h 14m 01s.xml">
+      <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.01.30 at 20h 14m 23s.xml">
+      <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29659000" />
+    <option name="totallyTimeSpent" value="30553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="219" y="72" width="1440" height="813" extended-state="0" />
@@ -413,7 +393,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54178274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30640668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -477,14 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/cli_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -601,10 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/deck.rb">
+    <entry file="file://$PROJECT_DIR$/spec/card_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="28">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -617,10 +589,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/card_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/deck.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/cli_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="65" />
           <folding />
         </state>
       </provider>
