@@ -37,9 +37,13 @@ end
 
 module BeatingMatchers
   extend RSpec::Matchers::DSL
-  matcher :beat do |losing_hand|
-    match do |winning_hand|
-      HighCard.beats?(hand(winning_hand), hand(losing_hand))
+  matcher :beat do |losing|
+    match do |winning|
+      HighCard.beats?(hand(winning), hand(losing))
+    end
+
+    failure_message do |winning|
+      "Expected <#{hand(winning).join(' ')}> to beat  #{hand(losing).join(' ')}"
     end
   end
 end

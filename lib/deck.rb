@@ -22,4 +22,8 @@ class Deck
       Card.build(suit, rank)
     end
   end
+
+  def deal(num_cards)
+    [Card.build(:clubs, 7)] * num_cards
+  end
 end

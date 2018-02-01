@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-01-31T13:32:29+00:00">2018-01-31T13:32:29+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-02-01T16:24:49+00:00">2018-02-01T16:24:49+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">72.31%</span></span>
+    (<span class="covered_percent"><span class="red">76.11%</span></span>
      covered at
      <span class="covered_strength">
-       <span class="green">
-         2.5
+       <span class="red">
+         0.88
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>4</b> files in total.
-    <b>65</b> relevant lines. 
-    <span class="green"><b>47</b> lines covered</span> and
-    <span class="red"><b>18</b> lines missed </span>
+    <b>113</b> relevant lines. 
+    <span class="green"><b>86</b> lines covered</span> and
+    <span class="red"><b>27</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -52,42 +52,42 @@
       
       <tr>
         <td class="strong"><a href="#03d5fadc8dbcc6ee48df15bc143d0203c648ddbd" class="src_link" title="lib/card.rb">lib/card.rb</a></td>
-        <td class="red strong">71.43 %</td>
-        <td>63</td>
+        <td class="red strong">53.57 %</td>
+        <td>65</td>
         <td>28</td>
-        <td>20</td>
-        <td>8</td>
-        <td>3.9</td>
+        <td>15</td>
+        <td>13</td>
+        <td>0.7</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#a884a52998a4ae033ac46f88dbd52f3b43cf8505" class="src_link" title="lib/high_card.rb">lib/high_card.rb</a></td>
-        <td class="green strong">100.0 %</td>
+        <td class="strong"><a href="#250aeee0dc05da2eb165204dccdd2397ccb3be44" class="src_link" title="lib/deck.rb">lib/deck.rb</a></td>
+        <td class="red strong">72.73 %</td>
+        <td>29</td>
+        <td>11</td>
         <td>8</td>
         <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>2.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#3fc52c47ab685199671cc545b008ded6cd9c1ca3" class="src_link" title="spec/custom_matchers.rb">spec/custom_matchers.rb</a></td>
-        <td class="red strong">54.55 %</td>
-        <td>46</td>
-        <td>22</td>
-        <td>12</td>
-        <td>10</td>
         <td>0.8</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#a3e30a3e680b2ab6aca502117ad9c69371be2efc" class="src_link" title="spec/hand_spec.rb">spec/hand_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>21</td>
-        <td>12</td>
-        <td>12</td>
-        <td>0</td>
-        <td>2.5</td>
+        <td class="strong"><a href="#a884a52998a4ae033ac46f88dbd52f3b43cf8505" class="src_link" title="lib/high_card.rb">lib/high_card.rb</a></td>
+        <td class="yellow strong">84.38 %</td>
+        <td>53</td>
+        <td>32</td>
+        <td>27</td>
+        <td>5</td>
+        <td>0.9</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#5557676a72d68ba8e8373eae3468a2c0666b73f3" class="src_link" title="spec/cli_spec.rb">spec/cli_spec.rb</a></td>
+        <td class="yellow strong">85.71 %</td>
+        <td>76</td>
+        <td>42</td>
+        <td>36</td>
+        <td>6</td>
+        <td>1.0</td>
       </tr>
       
     </tbody>
@@ -109,11 +109,11 @@
         <div class="source_table" id="03d5fadc8dbcc6ee48df15bc143d0203c648ddbd">
   <div class="header">
     <h3>lib/card.rb</h3>
-    <h4><span class="red">71.43 %</span> covered</h4>
+    <h4><span class="red">53.57 %</span> covered</h4>
     <div>
       <b>28</b> relevant lines. 
-      <span class="green"><b>20</b> lines covered</span> and
-      <span class="red"><b>8</b> lines missed.</span>
+      <span class="green"><b>15</b> lines covered</span> and
+      <span class="red"><b>13</b> lines missed.</span>
     </div>
   </div>
   
@@ -162,8 +162,8 @@
           <code class="ruby">  def self.build(suit, rank)</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="8">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
           
           <code class="ruby">    new(suit: suit, rank: rank)</code>
         </li>
@@ -192,8 +192,8 @@
           <code class="ruby">    # Gets the last character from the string</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="13">
-          <span class="hits">11</span>
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
           
           <code class="ruby">    short_suit = value[-1].to_sym</code>
         </li>
@@ -210,8 +210,8 @@
           <code class="ruby">    # Map it to a suit</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="16">
-          <span class="hits">11</span>
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
           
           <code class="ruby">    suit = {</code>
         </li>
@@ -219,25 +219,25 @@
         <li class="never" data-hits="" data-linenumber="17">
           
           
-          <code class="ruby">      H: :hearts,</code>
+          <code class="ruby">      H: :♥,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">      S: :spades,</code>
+          <code class="ruby">      S: :♠,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby">      C: :clubs,</code>
+          <code class="ruby">      C: :♣,</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">      D: :diamonds</code>
+          <code class="ruby">      D: :♦</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
@@ -264,8 +264,8 @@
           <code class="ruby">    # face = value[-1].to_sym</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="25">
-          <span class="hits">11</span>
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
           
           <code class="ruby">    rank = {</code>
         </li>
@@ -294,8 +294,8 @@
           <code class="ruby">      J: :jack</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="30">
-          <span class="hits">11</span>
+        <li class="missed" data-hits="0" data-linenumber="30">
+          
           
           <code class="ruby">    }.fetch(value[0].to_sym) { value[0..-2].to_i }</code>
         </li>
@@ -306,8 +306,8 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="32">
-          <span class="hits">11</span>
+        <li class="missed" data-hits="0" data-linenumber="32">
+          
           
           <code class="ruby">    Card.build(suit, rank)</code>
         </li>
@@ -342,14 +342,14 @@
           <code class="ruby">  def initialize(suit:, rank:)</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="38">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="2" data-linenumber="38">
+          <span class="hits">2</span>
           
           <code class="ruby">    @suit = suit</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="39">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="2" data-linenumber="39">
+          <span class="hits">2</span>
           
           <code class="ruby">    @rank = case rank</code>
         </li>
@@ -378,8 +378,8 @@
           <code class="ruby">            when :ace then 14</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="44">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="2" data-linenumber="44">
+          <span class="hits">2</span>
           
           <code class="ruby">            else rank</code>
         </li>
@@ -498,68 +498,206 @@
           <code class="ruby">end</code>
         </li>
       
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
     </ol>
   </pre>
 </div>
 
       
-        <div class="source_table" id="a884a52998a4ae033ac46f88dbd52f3b43cf8505">
+        <div class="source_table" id="250aeee0dc05da2eb165204dccdd2397ccb3be44">
   <div class="header">
-    <h3>lib/high_card.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h3>lib/deck.rb</h3>
+    <h4><span class="red">72.73 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>11</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>3</b> lines missed.</span>
     </div>
   </div>
   
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
-          
-          
-          <code class="ruby"># Class that decides hands</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">class HighCard</code>
+          <code class="ruby">require_relative &#39;card&#39;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
+          
+          
+          <code class="ruby">#  class deck</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  def self.beats?(hand, opposing)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">    # To get the largest value of a hand of cards to then compare them,</code>
+          <code class="ruby">class Deck</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
           
           
-          <code class="ruby">    # we extract all the ranks from the hand, sort them and pick the last one.</code>
+          <code class="ruby">  # All ranks, from 7 to ace</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="6">
-          <span class="hits">4</span>
+        <li class="never" data-hits="" data-linenumber="6">
           
-          <code class="ruby">    hand.map(&amp;:rank).sort.last &gt; opposing.map(&amp;:rank).sort.last</code>
+          
+          <code class="ruby">  # with %i %I - `:`, `,` are not needed</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
           
           
+          <code class="ruby">  # and may be unwanted in the resulting symbols</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  RANKS = (7..10).to_a + %I[jack queen king ace].freeze</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">  # All for suits</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  SUITS = %i[♥ ♦ ♣ ♠].freeze</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="11">
+          
+          
+          <code class="ruby">  # SUITS = %i[hearts diamonds clubs spades].freeze</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.made_happy(name)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="14">
+          
+          
+          <code class="ruby">    name.upcase</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="17">
+          
+          
+          <code class="ruby">  # class method</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def self.all</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
+          <code class="ruby">    # For every suit paired with every rank,</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">    SUITS.product(RANKS).map do |suit, rank|</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">      # we build a Card object and add that card to the deck array using map</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="22">
+          
+          
+          <code class="ruby">      Card.build(suit, rank)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="26">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def deal(num_cards)</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="27">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    [Card.build(:clubs, 7)] * num_cards</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="29">
           
           
           <code class="ruby">end</code>
@@ -570,14 +708,14 @@
 </div>
 
       
-        <div class="source_table" id="3fc52c47ab685199671cc545b008ded6cd9c1ca3">
+        <div class="source_table" id="a884a52998a4ae033ac46f88dbd52f3b43cf8505">
   <div class="header">
-    <h3>spec/custom_matchers.rb</h3>
-    <h4><span class="red">54.55 %</span> covered</h4>
+    <h3>lib/high_card.rb</h3>
+    <h4><span class="yellow">84.38 %</span> covered</h4>
     <div>
-      <b>22</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>10</b> lines missed.</span>
+      <b>32</b> relevant lines. 
+      <span class="green"><b>27</b> lines covered</span> and
+      <span class="red"><b>5</b> lines missed.</span>
     </div>
   </div>
   
@@ -587,43 +725,43 @@
         <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">module MyCustomMatcherExperiments</code>
+          <code class="ruby">require &#39;deck&#39;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
+        <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby"># Class that decides hands</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">  extend RSpec::Matchers::DSL</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
+          <code class="ruby">module HighCard</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  matcher :be_happy do</code>
+          <code class="ruby">  def self.beats?(hand, opposing)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="5">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
-          <code class="ruby">    match do |string|</code>
+          <code class="ruby">    # To get the largest value of a hand of cards to then compare them,</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
-          <code class="ruby">      string.upcase == string</code>
+          <code class="ruby">    # we extract all the ranks from the hand, sort them and pick the last one.</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="missed" data-hits="0" data-linenumber="7">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">    hand.map(&amp;:rank).sort.last &gt; opposing.map(&amp;:rank).sort.last</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="8">
@@ -641,37 +779,37 @@
         <li class="covered" data-hits="1" data-linenumber="10">
           <span class="hits">1</span>
           
-          <code class="ruby">  matcher :be_a_big_number do</code>
+          <code class="ruby">  class Bank</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    match do |num|</code>
+          <code class="ruby">    attr_reader :accounts</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">      num &gt; 10</code>
+          <code class="ruby">    def initialize(accounts)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">      @accounts = accounts</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
@@ -683,181 +821,223 @@
         <li class="never" data-hits="" data-linenumber="17">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  # the entire set of operations of the game goes through the command line.</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="18">
           <span class="hits">1</span>
           
-          <code class="ruby">module ArrayMatchers</code>
+          <code class="ruby">  class CLI</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="19">
           <span class="hits">1</span>
           
-          <code class="ruby">  extend RSpec::Matchers::DSL</code>
+          <code class="ruby">    def self.run(seed = rand(100000), deck: Deck.new)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="20">
           <span class="hits">1</span>
           
-          <code class="ruby">  matcher :be_contiguous_by do</code>
+          <code class="ruby">      Kernel.srand seed.to_i</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="21">
-          
-          
-          <code class="ruby">    match do |array|</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="22">
-          
-          
-          <code class="ruby">      !first_non_contiguous_pair(array)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="23">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="24">
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="25">
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
           
+          <code class="ruby">      login = `whoami`.chomp</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
           
-          <code class="ruby">    failure_message do |array|</code>
+          <code class="ruby">      bank = Bank.new(ENV.fetch(&#39;HIGHCARD_DIR&#39;, &#39;/tmp/bank-accounts&#39;))</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="24">
+          <span class="hits">2</span>
+          
+          <code class="ruby">      account = bank.accounts.detect { |x| x.name == login }</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="25">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      if !account</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="26">
           
           
-          <code class="ruby">      &#39;%s and %s were not contiguous&#39; % first_non_contiguous_pair(array)</code>
+          <code class="ruby">        puts &#39;Could not find bank account, you cannot play&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="27">
+        <li class="missed" data-hits="0" data-linenumber="27">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">        return</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">      end</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="29">
+        <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">    def first_non_contiguous_pair(array)</code>
+          <code class="ruby">      # puts &#39;Could not find bank account, you cannot play&#39; unless account</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">      array</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="31">
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">        .sort_by(&amp;block_arg)</code>
+          <code class="ruby">      hand = deck.deal(5).sort_by(&amp;:rank).reverse</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="32">
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">        .each_cons(2)</code>
+          <code class="ruby">      opposing = deck.deal(5).sort_by(&amp;:rank).reverse</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="33">
+        <li class="covered" data-hits="3" data-linenumber="33">
+          <span class="hits">3</span>
           
-          
-          <code class="ruby">        .detect { |x, y| block_arg.call(x) + 1 != block_arg.call(y) }</code>
+          <code class="ruby">      winning = [hand, opposing].sort_by { |h| h.map(&amp;:rank).sort.reverse}.last</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="34">
           
           
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="35">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="36">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="37">
-          
-          
           <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      puts &quot;Your hand is  #{hand.join(&#39;, &#39;)}&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      print &quot;Bet $1 to win? N/y: &quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="37">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      start = Time.now</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="38">
           <span class="hits">1</span>
           
-          <code class="ruby">module BeatingMatchers</code>
+          <code class="ruby">      input = $stdin.gets</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="39">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="39">
           
-          <code class="ruby">  extend RSpec::Matchers::DSL</code>
+          
+          <code class="ruby">      # if Round.win?(input.chomp.downcase == &#39;y&#39;, hand, opposing)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="40">
           <span class="hits">1</span>
           
-          <code class="ruby">  matcher :beat do |losing_hand|</code>
+          <code class="ruby">      if input.chomp.downcase == &#39;y&#39; &amp;&amp; hand == winning</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="41">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="1" data-linenumber="41">
+          <span class="hits">1</span>
           
-          <code class="ruby">    match do |winning_hand|</code>
+          <code class="ruby">        puts &#39;You won!&#39;</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="42">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
           
-          <code class="ruby">      HighCard.beats?(hand(winning_hand), hand(losing_hand))</code>
+          <code class="ruby">        account.credit!(login, 1)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="43">
           
           
-          <code class="ruby">    end</code>
+          <code class="ruby">      else</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="44">
+        <li class="missed" data-hits="0" data-linenumber="44">
           
           
-          <code class="ruby">  end</code>
+          <code class="ruby">        puts &#39;You lost!&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="45">
+        <li class="missed" data-hits="0" data-linenumber="45">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby">        account.debit!(login, 1)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="46">
           
           
+          <code class="ruby">      end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="47">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      puts &quot;Opposing hand was #{opposing.join(&#39;, &#39;)}&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="48">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      puts &quot;Balance is #{account.balance}&quot;</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="49">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      puts &quot;You took #{Time.now - start}s to make a decision.&quot;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
+          
+          
           <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="53">
+          
+          
+          <code class="ruby">end</code>
         </li>
       
     </ol>
@@ -865,14 +1045,14 @@
 </div>
 
       
-        <div class="source_table" id="a3e30a3e680b2ab6aca502117ad9c69371be2efc">
+        <div class="source_table" id="5557676a72d68ba8e8373eae3468a2c0666b73f3">
   <div class="header">
-    <h3>spec/hand_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h3>spec/cli_spec.rb</h3>
+    <h4><span class="yellow">85.71 %</span> covered</h4>
     <div>
-      <b>12</b> relevant lines. 
-      <span class="green"><b>12</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>42</b> relevant lines. 
+      <span class="green"><b>36</b> lines covered</span> and
+      <span class="red"><b>6</b> lines missed.</span>
     </div>
   </div>
   
@@ -882,37 +1062,37 @@
         <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;high_card&#39;</code>
+          <code class="ruby">require &#39;tmpdir&#39;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="2">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;card&#39;</code>
+          <code class="ruby">require &#39;pty&#39;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">require_relative &#39;custom_matchers&#39;</code>
+          <code class="ruby">require &#39;high_card&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require &#39;card&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">describe &#39;hand rankings&#39; do</code>
-        </li>
-      
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">  include BeatingMatchers</code>
+          <code class="ruby">BIN = File.expand_path(&#39;../../bin/play&#39;, __FILE__)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -924,55 +1104,55 @@
         <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
-          <code class="ruby">  example &#39;hand with highest card wins&#39; do</code>
+          <code class="ruby">describe &#39;CLI&#39;, :acceptance do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby">    # Helper method. Given an array of strings it maps the strings and builds</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">    # a card from them using the from string method.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
-          <code class="ruby">    def hand(strings)</code>
+          <code class="ruby">  def run_app(seed = 1, &amp;block)</code>
         </li>
       
-        <li class="covered" data-hits="19" data-linenumber="12">
-          <span class="hits">19</span>
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
           
-          <code class="ruby">      strings.map { |x| Card.from_string(x) }</code>
+          <code class="ruby">    puts &#39;Running before example in acceptance&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="covered" data-hits="2" data-linenumber="11">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">    dir = Dir.tmpdir + &#39;/highcard_test_state&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="covered" data-hits="2" data-linenumber="12">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">    `rm -Rf #{dir}`</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="13">
+          <span class="hits">2</span>
           
-          <code class="ruby">    expect(%w[10H]).to beat(%w[9H])</code>
+          <code class="ruby">    `mkdir -p #{dir}`</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="16">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="14">
+          <span class="hits">2</span>
           
-          <code class="ruby">    expect(%w[9H]).not_to beat(%w[10H])</code>
+          <code class="ruby">    ENV[&#39;HIGHCARD_DIR&#39;] = dir</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="15">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    PTY.spawn(BIN, &amp;block)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="16">
+          
+          
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="17">
@@ -984,22 +1164,352 @@
         <li class="covered" data-hits="1" data-linenumber="18">
           <span class="hits">1</span>
           
-          <code class="ruby">    expect(%w[6H 11H]).to beat(%w[9H])</code>
+          <code class="ruby">  example &#39;it works&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="19">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="19">
           
-          <code class="ruby">    expect(%w[8H 9H]).not_to beat(%w[6H 10H])</code>
+          
+          <code class="ruby">    # Launch the game, give it input and verify whether we win or lose</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
+          <code class="ruby">    # this launches a process and gives us control over input and output strings</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    run_app do |output, input, pid|</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="22">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      sleep 0.5</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="23">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      input.write(&quot;y\n&quot;)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="24">
+          
+          
+          <code class="ruby">      sleep 0.5</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">      buffer = output.read_nonblock(1024)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="26">
+          
+          
+          <code class="ruby">      expect(buffer).to include(&#39;You won!&#39;).or include(&#39;You lost!&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="28">
+          
+          
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="never" data-hits="" data-linenumber="29">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="30">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  example &#39;betting on winning hand&#39; do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="31">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    run_app(1) do |output, input, pid|</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="32">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      sleep 0.5</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
+          
+          <code class="ruby">      input.write(&quot;y\n&quot;)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="34">
+          
+          
+          <code class="ruby">      sleep 0.5</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="35">
+          
+          
+          <code class="ruby">      buffer = output.read_nonblock(1024)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="36">
+          
+          
+          <code class="ruby">      expect(buffer).to include(&#39;You won!&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="37">
+          
+          
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="38">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="39">
+          
+          
+          <code class="ruby">  # only for test isolation purposes.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="40">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  class FakeAccount</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="41">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    def name; &#39;tester&#39;; end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def credit!(*_); end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def debit!(*_); end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="44">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    def balance; end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="47">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  example &#39;not betting on losing hand&#39; do</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">    # mocking out external dependencies by creating fake methods thanks to `allow`</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby">    # The fake methods will return `nil` whenever called.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="50">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    allow(HighCard::CLI). to receive(:puts)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="51">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    allow(HighCard::CLI). to receive(:print)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="52">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    allow(HighCard::CLI). to receive(:`).with(&#39;whoami&#39;).and_return(&#39;tester&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="53">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="54">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    allow_any_instance_of(HighCard::Bank).to receive(:accounts).and_return([</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
+          <code class="ruby">      FakeAccount.new</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="56">
+          
+          
+          <code class="ruby">    ])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="57">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="58">
+          
+          
+          <code class="ruby">    # Set up state. We get 10 cards in order</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="59">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    allow(Card).to receive(:build).and_return(*</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="60">
+          
+          
+          <code class="ruby">      [Card.build(:clubs, 7)] * 5 + # Weaker hand</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="61">
+          
+          
+          <code class="ruby">      [Card.build(:clubs, 8)] * 5 # Stronger hand</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="62">
+          
+          
+          <code class="ruby">    )</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="63">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="64">
+          
+          
+          <code class="ruby">    # Mocking out the shuffle method of Array to prevent from disrupting the</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="65">
+          
+          
+          <code class="ruby">    # above created order, avoiding any randomization. Interesting combination</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="66">
+          
+          
+          <code class="ruby">    # is `allow_any_instance_of` + `receive(&amp;block)` - this provides and alternate</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="67">
+          
+          
+          <code class="ruby">    # implementation of `shuffle` that just returns as argument, avoiding</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="68">
+          
+          
+          <code class="ruby">    # any randomization.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="69">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    allow_any_instance_of(Array).to receive(:shuffle) { |x| x }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="70">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="71">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect($stdin).to receive(:gets).and_return(&#39;Y&#39;)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="72">
+          
+          
+          <code class="ruby">    # `puts` can be received any number of times by the spec due to the `allow`</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="73">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(HighCard::CLI).to receive(:puts).with(&#39;You won!&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="74">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    HighCard::CLI.run</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="75">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="76">
           
           
           <code class="ruby">end</code>

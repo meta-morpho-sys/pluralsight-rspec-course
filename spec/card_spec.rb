@@ -84,10 +84,11 @@ describe Card, :unit do
         expect(Card.from_string(string)).to eq(as)
       end
     end
-    it_parses'7H', as: Card.build(:hearts, 7)
-    it_parses'10S', as: Card.build(:spades, 10)
-    it_parses'JC', as: Card.build(:clubs, :jack)
-    it_parses'QD', as: Card.build(:diamonds, :queen)
-    it_parses'KC', as: Card.build(:clubs, :king)
+
+    it_parses'7H', as: Card.build(:♥, 7)
+    it_parses'10S', as: Card.build(:♠, 10)
+    it_parses'JC', as: Card.build(:♣, :jack)
+    it_parses'QD', as: Card.build(:♦, :queen)
+    it_parses'KC', as: Card.build(:♣, :king)
   end
 end

@@ -2,6 +2,7 @@
   <dictionary name="astarte">
     <words>
       <w>highcard</w>
+      <w>whoami</w>
     </words>
   </dictionary>
 </component>

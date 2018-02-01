@@ -14,10 +14,10 @@ class Card
 
     # Map it to a suit
     suit = {
-      H: :hearts,
-      S: :spades,
-      C: :clubs,
-      D: :diamonds
+      H: :♥,
+      S: :♠,
+      C: :♣,
+      D: :♦
     }.fetch(short_suit)
 
     # Map remainder to a face card, or fallback on numeric
@@ -61,3 +61,5 @@ class Card
     self == other
   end
 end
+
+

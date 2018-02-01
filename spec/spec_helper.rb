@@ -8,13 +8,14 @@ SimpleCov.formatter = SCF::MultiFormatter.new(formatters)
 SimpleCov.start
 
 RSpec.configure do |config|
-  config.before(:example, unit: true) do
-    # puts 'Running before example'
-    # dir = Dir.tmpdir + '/highcard_test_state'
-    # `rm -Rf #{dir}`
-    # `mkdir -p #{dir}`
-    # ENV['HIGHCARD_DIR'] = dir
-  end
+  # config.before(:example, acceptance: true) do
+  #   puts 'Running before example'
+  #   dir = Dir.tmpdir + '/highcard_test_state'
+  #   `rm -Rf #{dir}`
+  #   `mkdir -p #{dir}`
+  #   ENV['HIGHCARD_DIR'] = dir
+  # end
+
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
