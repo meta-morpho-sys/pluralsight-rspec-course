@@ -44,6 +44,18 @@ describe 'CLI', :acceptance do
     def balance; end
   end
 
+  class LowHandFirstDeck
+    def initialize
+      @cards =
+        [Card.build(:clubs, 7)] * 5 + # Weaker hand
+        [Card.build(:clubs, 8)] * 5 # Stronger hand
+    end
+
+    def deal(n)
+      @cards.shift(n)
+    end
+  end
+
   example 'not betting on losing hand' do
     # mocking out external dependencies by creating fake methods thanks to `allow`
     # The fake methods will return `nil` whenever called.
@@ -56,21 +68,12 @@ describe 'CLI', :acceptance do
     ])
 
     # Set up state. We get 10 cards in order
-    allow(Card).to receive(:build).and_return(*
-      [Card.build(:clubs, 7)] * 5 + # Weaker hand
-      [Card.build(:clubs, 8)] * 5 # Stronger hand
-    )
+    deck = LowHandFirstDeck.new
 
-    # Mocking out the shuffle method of Array to prevent from disrupting the
-    # above created order, avoiding any randomization. Interesting combination
-    # is `allow_any_instance_of` + `receive(&block)` - this provides and alternate
-    # implementation of `shuffle` that just returns as argument, avoiding
-    # any randomization.
-    allow_any_instance_of(Array).to receive(:shuffle) { |x| x }
-
-    expect($stdin).to receive(:gets).and_return('Y')
+    expect($stdin).to receive(:gets).and_return('N')
     # `puts` can be received any number of times by the spec due to the `allow`
     expect(HighCard::CLI).to receive(:puts).with('You won!')
-    HighCard::CLI.run
+
+    HighCard::CLI.run(1, deck: deck)
   end
 end

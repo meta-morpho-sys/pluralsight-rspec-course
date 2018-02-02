@@ -23,7 +23,12 @@ class Deck
     end
   end
 
+  # Creates a deck by accessing the class method all and shuffles the cards.
+  def initialize
+    @cards = self.class.all.shuffle
+  end
+
   def deal(num_cards)
-    [Card.build(:clubs, 7)] * num_cards
+    @cards.shift(num_cards)
   end
 end
