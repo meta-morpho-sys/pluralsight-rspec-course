@@ -3,6 +3,8 @@ require 'pty'
 require 'high_card'
 require 'card'
 require 'round'
+require 'ui'
+
 
 BIN = "File.expand_path('../../bin/play', __FILE__)".freeze
 
@@ -51,16 +53,16 @@ describe 'CLI', :acceptance do
   example 'not betting on losing hand' do
     # mocking out ext dependencies by creating fake methods thanks to `allow`
     # The fake methods will return `nil` whenever called.
-    allow(HighCard::CLI). to receive(:puts)
-    allow(HighCard::CLI). to receive(:print)
-    allow(HighCard::CLI). to receive(:`).with('whoami').and_return('tester')
+    allow(HighCard::CLI).to receive(:puts)
+    allow(HighCard::CLI).to receive(:print)
+    allow(HighCard::CLI).to receive(:`).with('whoami').and_return('tester')
 
     allow_any_instance_of(HighCard::Bank).to receive(:accounts)
       .and_return([
                     FakeAccount.new
                   ])
 
-    ui = instance_double('UI').as_null_object
+    ui = instance_double(UI).as_null_object
     expect(ui).to receive(:yesno_prompt).with(/Bet \$1/).and_return false
     expect(ui).to receive(:puts).with('You won!')
 

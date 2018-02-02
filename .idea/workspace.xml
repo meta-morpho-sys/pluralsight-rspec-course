@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8e9e31c-396d-4019-91fb-09cb98839e4a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/astarte.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/astarte.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/ui.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spec/ui_spec.rb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
-      <change beforePath="$PROJECT_DIR$/lib/high_card.rb" afterPath="$PROJECT_DIR$/lib/high_card.rb" />
       <change beforePath="$PROJECT_DIR$/spec/cli_spec.rb" afterPath="$PROJECT_DIR$/spec/cli_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +27,14 @@
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Run_spec__round_spec___Pluralsight_Rspec_course.coverage" NAME="Run spec 'round_spec': Pluralsight_Rspec_course Coverage Results" MODIFIED="1517576474917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck__Pluralsight_Rspec_course.coverage" NAME="Deck: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517321898232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Run_spec__expect_spec___Pluralsight_Rspec_course.coverage" NAME="Run spec 'expect_spec': Pluralsight_Rspec_course Coverage Results" MODIFIED="1517334262450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
-    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI_betting_on_winning_hand__Pluralsight_Rspec_course.coverage" NAME="CLI betting on winning hand: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517577693822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI_betting_on_winning_hand__Pluralsight_Rspec_course.coverage" NAME="CLI betting on winning hand: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517578876333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@expectations.coverage" NAME="expectations Coverage Results" MODIFIED="1517323983752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_has_a_suit__Pluralsight_Rspec_course.coverage" NAME="Card has a suit: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517248916884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_shows_its_happiness__Pluralsight_Rspec_course.coverage" NAME="Deck.all shows its happiness: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517272546395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI_it_works__Pluralsight_Rspec_course.coverage" NAME="CLI it works: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517493284393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI__Pluralsight_Rspec_course.coverage" NAME="CLI: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517577094632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@hand_rankings__Pluralsight_Rspec_course.coverage" NAME="hand rankings: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517417695513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
-    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course.coverage" NAME="CLI not betting on losing hand: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517495258453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course.coverage" NAME="CLI not betting on losing hand: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517590395034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_a_king__Pluralsight_Rspec_course.coverage" NAME="Card a king: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517249612994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course.coverage" NAME="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517418889319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Round_win___Pluralsight_Rspec_course.coverage" NAME="Round.win?: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517574446219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
@@ -64,11 +64,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cli_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cli_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/cli_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/ui_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ui.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="symbol.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/symbol.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="144" column="43" lean-forward="true" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -107,6 +137,8 @@
         <option value="$PROJECT_DIR$/lib/round.rb" />
         <option value="$PROJECT_DIR$/lib/high_card.rb" />
         <option value="$PROJECT_DIR$/spec/cli_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/ui_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/ui.rb" />
       </list>
     </option>
   </component>
@@ -116,9 +148,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="808" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="541" />
+    <option name="y" value="60" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -208,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.CLI betting on winning hand: Pluralsight_Rspec_course">
+  <component name="RunManager" selected="RSpec.CLI not betting on losing hand: Pluralsight_Rspec_course">
     <configuration name="CLI betting on winning hand: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Pluralsight_Rspec_course" />
@@ -241,6 +273,38 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
+    <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="Pluralsight_Rspec_course" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/cli_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CLI not betting on losing hand" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
     <configuration name="CLI: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Pluralsight_Rspec_course" />
@@ -264,38 +328,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CLI" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="Round.win?: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="Pluralsight_Rspec_course" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/round_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Round.win?" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -371,18 +403,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.CLI: Pluralsight_Rspec_course" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Round.win?: Pluralsight_Rspec_course" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'round_spec': Pluralsight_Rspec_course" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'cli_spec': Pluralsight_Rspec_course" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.CLI betting on winning hand: Pluralsight_Rspec_course" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'round_spec': Pluralsight_Rspec_course" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'cli_spec': Pluralsight_Rspec_course" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.CLI betting on winning hand: Pluralsight_Rspec_course" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.CLI not betting on losing hand: Pluralsight_Rspec_course" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.CLI betting on winning hand: Pluralsight_Rspec_course" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.CLI: Pluralsight_Rspec_course" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'round_spec': Pluralsight_Rspec_course" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'cli_spec': Pluralsight_Rspec_course" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Round.win?: Pluralsight_Rspec_course" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.CLI not betting on losing hand: Pluralsight_Rspec_course" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.CLI betting on winning hand: Pluralsight_Rspec_course" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.CLI: Pluralsight_Rspec_course" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'round_spec': Pluralsight_Rspec_course" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'cli_spec': Pluralsight_Rspec_course" />
       </list>
     </recent_temporary>
   </component>
@@ -397,47 +429,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517184638413</updated>
-      <workItem from="1517184639904" duration="59108000" />
+      <workItem from="1517184639904" duration="61754000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CLI__Pluralsight_Rspec_course - 2018.02.02 at 13h 05m 32s.xml">
-      <configuration name="CLI: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CLI__Pluralsight_Rspec_course - 2018.02.02 at 13h 05m 58s.xml">
-      <configuration name="CLI: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CLI__Pluralsight_Rspec_course - 2018.02.02 at 13h 10m 56s.xml">
-      <configuration name="CLI: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CLI__Pluralsight_Rspec_course - 2018.02.02 at 13h 11m 19s.xml">
-      <configuration name="CLI: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CLI__Pluralsight_Rspec_course - 2018.02.02 at 13h 11m 35s.xml">
-      <configuration name="CLI: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CLI_betting_on_winning_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 14m 55s.xml">
-      <configuration name="CLI betting on winning hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="CLI_betting_on_winning_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 20m 30s.xml">
       <configuration name="CLI betting on winning hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="CLI_betting_on_winning_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 21m 34s.xml">
       <configuration name="CLI betting on winning hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'round_spec'__Pluralsight_Rspec_course - 2018.02.02 at 13h 01m 08s.xml">
-      <configuration name="Run spec 'round_spec': Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="CLI_betting_on_winning_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 41m 16s.xml">
+      <configuration name="CLI betting on winning hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'round_spec'__Pluralsight_Rspec_course - 2018.02.02 at 13h 01m 15s.xml">
-      <configuration name="Run spec 'round_spec': Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 41m 25s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 41m 46s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 13h 42m 17s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 16h 40m 34s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 16h 43m 58s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 16h 52m 50s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.02 at 16h 53m 15s.xml">
+      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59108000" />
+    <option name="totallyTimeSpent" value="61754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="808" y="51" width="1440" height="813" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -732,8 +764,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/cli_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ui_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/symbol.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="144" column="43" lean-forward="true" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
           <folding />
         </state>
       </provider>
