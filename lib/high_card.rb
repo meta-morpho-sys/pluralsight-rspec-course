@@ -9,35 +9,34 @@ module HighCard
 
   # the entire set of operations of the game goes through the command line.
   class CLI
-    def self.run(seed = rand(100000), deck: Deck.new)
+    def self.run(seed = rand(100000), deck: Deck.new, ui: UI.new)
       Kernel.srand seed.to_i
 
       login = `whoami`.chomp
       bank = Bank.new(ENV.fetch('HIGHCARD_DIR', '/tmp/bank-accounts'))
       account = bank.accounts.detect { |x| x.name == login }
-      # if !account
-      #   puts 'Could not find bank account, you cannot play'
-      #   return
-      # end
-      puts 'Could not find bank account, you cannot play' unless account
+      if !account
+        puts 'Could not find bank account, you cannot play'
+        return
+      end
+      # puts 'Could not find bank account, you cannot play' unless account
 
       hand = deck.deal(5).sort_by(&:rank).reverse
       opposing = deck.deal(5).sort_by(&:rank).reverse
 
-      puts "Your hand is  #{hand.join(', ')}"
-      print "Bet $1 to win? N/y: "
+      ui.puts "Your hand is  #{hand.join(', ')}"
       start = Time.now
-      input = $stdin.gets
-      if Round.win?(input.chomp.downcase == 'y', hand, opposing)
-        puts 'You won!'
+      input = ui.yesno_prompt('Bet $1 to win?')
+      if Round.win?(input, hand, opposing)
+        ui.puts 'You won!'
         account.credit!(login, 1)
       else
-        puts 'You lost!'
+        ui.puts 'You lost!'
         account.debit!(login, 1)
       end
-      puts "Opposing hand was #{opposing.join(', ')}"
-      puts "Balance is #{account.balance}"
-      puts "You took #{Time.now - start}s to make a decision."
+      ui.puts "Opposing hand was #{opposing.join(', ')}"
+      ui.puts "Balance is #{account.balance}"
+      ui.puts "You took #{Time.now - start}s to make a decision."
     end
   end
 
