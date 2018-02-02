@@ -7,13 +7,6 @@ module HighCard
     hand.map(&:rank).sort.last > opposing.map(&:rank).sort.last
   end
 
-  class Bank
-    attr_reader :accounts
-    def initialize(accounts)
-      @accounts = accounts
-    end
-  end
-
   # the entire set of operations of the game goes through the command line.
   class CLI
     def self.run(seed = rand(100000), deck: Deck.new)
@@ -30,14 +23,12 @@ module HighCard
 
       hand = deck.deal(5).sort_by(&:rank).reverse
       opposing = deck.deal(5).sort_by(&:rank).reverse
-      winning = [hand, opposing].sort_by { |h| h.map(&:rank).sort.reverse}.last
 
       puts "Your hand is  #{hand.join(', ')}"
       print "Bet $1 to win? N/y: "
       start = Time.now
       input = $stdin.gets
-      # if Round.win?(input.chomp.downcase == 'y', hand, opposing)
-      if input.chomp.downcase == 'y' && hand == winning
+      if Round.win?(input.chomp.downcase == 'y', hand, opposing)
         puts 'You won!'
         account.credit!(login, 1)
       else
@@ -50,4 +41,23 @@ module HighCard
     end
   end
 
+    # what is this class?
+  class Bank
+    attr_reader :accounts
+
+    def initialize(accounts)
+      @accounts = accounts
+    end
+    # what is this class?
+    class Account
+      attr_reader :name, :balance
+
+      def initialize(path, name)
+        @path = path
+        FileUtils.mkdir_p(path)
+        @name = name
+        @balance = File.read(path + "/#{name}").to_i rescue 0
+      end
+    end
+  end
 end

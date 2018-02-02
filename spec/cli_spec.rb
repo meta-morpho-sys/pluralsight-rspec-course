@@ -3,7 +3,7 @@ require 'pty'
 require 'high_card'
 require 'card'
 
-BIN = File.expand_path('../../bin/play', __FILE__)
+BIN = "File.expand_path('../../bin/play', __FILE__)".freeze
 
 describe 'CLI', :acceptance do
   def run_app(seed = 1, &block)
@@ -44,17 +44,6 @@ describe 'CLI', :acceptance do
     def balance; end
   end
 
-  class LowHandFirstDeck
-    def initialize
-      @cards =
-        [Card.build(:clubs, 7)] * 5 + # Weaker hand
-        [Card.build(:clubs, 8)] * 5 # Stronger hand
-    end
-
-    def deal(n)
-      @cards.shift(n)
-    end
-  end
 
   example 'not betting on losing hand' do
     # mocking out external dependencies by creating fake methods thanks to `allow`
@@ -68,7 +57,12 @@ describe 'CLI', :acceptance do
     ])
 
     # Set up state. We get 10 cards in order
-    deck = LowHandFirstDeck.new
+
+    deck = instance_double(Deck)
+    expect(deck).to receive(:deal).with(5).and_return(
+      [Card.build(:clubs, 7)] * 5, # Weaker hand
+      [Card.build(:clubs, 8)] * 5 # Stronger hand
+    )
 
     expect($stdin).to receive(:gets).and_return('N')
     # `puts` can be received any number of times by the spec due to the `allow`
