@@ -1,4 +1,3 @@
-# require 'high_card'
 require 'round'
 require 'card'
 

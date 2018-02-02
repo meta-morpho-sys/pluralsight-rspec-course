@@ -4,6 +4,8 @@ class Round
     winning = [hand, opposing]
               .sort_by { |h| h.map(&:rank).sort.reverse }
               .last
-    bet && hand == winning || !bet && opposing == winning
+    # bet && hand == winning || !bet && opposing == winning
+    # exor-ed version of the previous line
+    bet ^ (opposing == winning)
   end
 end

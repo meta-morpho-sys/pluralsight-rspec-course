@@ -2,6 +2,7 @@ require 'tmpdir'
 require 'pty'
 require 'high_card'
 require 'card'
+require 'round'
 
 BIN = "File.expand_path('../../bin/play', __FILE__)".freeze
 
@@ -12,7 +13,7 @@ describe 'CLI', :acceptance do
     `rm -Rf #{dir}`
     `mkdir -p #{dir}`
     ENV['HIGHCARD_DIR'] = dir
-    PTY.spawn(BIN, &block)
+    PTY.spawn(BIN, seed.to_s, &block)
   end
 
   example 'it works' do
@@ -56,18 +57,15 @@ describe 'CLI', :acceptance do
       FakeAccount.new
     ])
 
-    # Set up state. We get 10 cards in order
-
-    deck = instance_double(Deck)
-    expect(deck).to receive(:deal).with(5).and_return(
-      [Card.build(:clubs, 7)] * 5, # Weaker hand
-      [Card.build(:clubs, 8)] * 5 # Stronger hand
-    )
+    # # Set up state. We pass false as parameter to .with since we don't want
+    # the code to record a bet
+    expect(Round).to receive(:win?).with(false, any_args).and_return true
 
     expect($stdin).to receive(:gets).and_return('N')
+
     # `puts` can be received any number of times by the spec due to the `allow`
     expect(HighCard::CLI).to receive(:puts).with('You won!')
 
-    HighCard::CLI.run(1, deck: deck)
+    HighCard::CLI.run(1)
   end
 end
