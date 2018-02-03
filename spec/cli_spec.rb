@@ -53,8 +53,6 @@ describe 'CLI', :acceptance do
   example 'not betting on losing hand' do
     # mocking out ext dependencies by creating fake methods thanks to `allow`
     # The fake methods will return `nil` whenever called.
-    allow(HighCard::CLI).to receive(:puts)
-    allow(HighCard::CLI).to receive(:print)
     allow(HighCard::CLI).to receive(:`).with('whoami').and_return('tester')
 
     allow_any_instance_of(HighCard::Bank).to receive(:accounts)
