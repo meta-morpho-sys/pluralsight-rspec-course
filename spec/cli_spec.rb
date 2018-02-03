@@ -6,7 +6,7 @@ require 'round'
 require 'ui'
 
 
-BIN = "File.expand_path('../../bin/play', __FILE__)".freeze
+BIN = File.expand_path('../../bin/play', __FILE__)
 
 describe 'CLI', :acceptance do
   def run_app(seed = 1, &block)

@@ -1,4 +1,5 @@
 require 'deck'
+require 'ui'
 # Class that decides hands
 module HighCard
   def self.beats?(hand, opposing)
@@ -9,19 +10,20 @@ module HighCard
 
   # the entire set of operations of the game goes through the command line.
   class CLI
-    def self.run(seed = rand(100000), deck: Deck.new, ui: UI.new)
+    # rubocop:disable Metrics/AbcSize
+    def self.run(seed = rand(100_000), deck: Deck.new, ui: UI.new)
       Kernel.srand seed.to_i
 
-      login = `whoami`.chomp
-      bank = Bank.new(ENV.fetch('HIGHCARD_DIR', '/tmp/bank-accounts'))
+      login   = `whoami`.chomp
+      bank    = Bank.new(ENV.fetch('HIGHCARD_DIR', '/tmp/bank-accounts'))
       account = bank.accounts.detect { |x| x.name == login }
-      if !account
-        puts 'Could not find bank account, you cannot play'
-        return
-      end
-      # puts 'Could not find bank account, you cannot play' unless account
+      # if !account
+      #   puts 'Could not find bank account, you cannot play'
+      #   return
+      # end
+      puts 'Could not find bank account, you cannot play' unless account
 
-      hand = deck.deal(5).sort_by(&:rank).reverse
+      hand     = deck.deal(5).sort_by(&:rank).reverse
       opposing = deck.deal(5).sort_by(&:rank).reverse
 
       ui.puts "Your hand is  #{hand.join(', ')}"
@@ -40,13 +42,14 @@ module HighCard
     end
   end
 
-    # what is this class?
+  # what is this class?
   class Bank
     attr_reader :accounts
 
     def initialize(accounts)
       @accounts = accounts
     end
+
     # what is this class?
     class Account
       attr_reader :name, :balance
