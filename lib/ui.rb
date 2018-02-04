@@ -3,7 +3,7 @@ class UI
   def yesno_prompt(message)
     print message + ' Y\n?'
     input = $stdin.gets
-    input[0].casecmp 'n'
+    input[0].downcase == 'n'
   end
 
   def puts(message)
