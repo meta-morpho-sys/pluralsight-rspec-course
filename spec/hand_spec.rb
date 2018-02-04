@@ -15,7 +15,7 @@ describe 'hand rankings', :aggregate_failures do
     expect(%w[10H]).to beat(%w[9H])
     expect(%w[9H]).not_to beat(%w[10H])
 
-    expect(%w[6H 10H]).to beat(%w[11H])
+    expect(%w[6H 10H]).to beat(%w[7H])
     expect(%w[8H 9H]).not_to beat(%w[6H 10H])
   end
 end

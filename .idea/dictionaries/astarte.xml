@@ -2,6 +2,7 @@
   <dictionary name="astarte">
     <words>
       <w>highcard</w>
+      <w>mktmpdir</w>
       <w>whoami</w>
       <w>yesno</w>
     </words>

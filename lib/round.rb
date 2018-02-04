@@ -1,4 +1,4 @@
-# decides whether betting or not ona winning and wins or loses
+# decides whether betting or not on a hand wins or loses
 class Round
 
   def self.win?(bet, hand, opposing)
@@ -6,7 +6,7 @@ class Round
               .sort_by { |h| h.map(&:rank).sort.reverse }
               .last
     # bet && hand == winning || !bet && opposing == winning
-    # exor-ed version of the previous line
+    # xor-ed version of the previous line
     bet ^ (opposing == winning)
   end
 end
