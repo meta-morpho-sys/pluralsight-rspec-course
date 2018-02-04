@@ -27,6 +27,5 @@ class Bank
     def debit!(amount)
       @balance -= amount
     end
-
   end
 end
