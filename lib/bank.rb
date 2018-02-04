@@ -1,4 +1,5 @@
-# what is this class?
+# Acts like a 3rd party library
+# Stores and hands out a collection of accounts
 class Bank
   attr_reader :accounts
 
@@ -7,24 +8,16 @@ class Bank
   end
 
   def load_accounts(_path)
-    # File.read(path)
     [Account.new('tester', 0), Account.new('astarte', 10)]
   end
 
-  # what is this class?
+  # Takes care of updating the balance of a user's account
   class Account
     attr_reader :name, :balance
 
     def initialize(name, balance)
-      # @path = path
-      # FileUtils.mkdir_p(path)
       @name = name
       @balance = balance
-        # begin
-        #   File.read(path + "/#{name}").to_i
-        # rescue StandardError
-        #   0
-        # end
     end
 
     def credit!(amount)
