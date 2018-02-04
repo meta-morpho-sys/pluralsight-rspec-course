@@ -8,7 +8,7 @@ require 'ui'
 
 describe 'CLI' do
   example 'not betting on losing hand' do
-    account = instance_double(HighCard::Banker, name: 'tester').as_null_object
+    account = instance_double(HighCard::Banker).as_null_object
 
     ui = instance_double(UI).as_null_object
     expect(ui).to receive(:yesno_prompt).with(/Bet \$1/).and_return false
