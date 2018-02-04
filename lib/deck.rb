@@ -7,8 +7,7 @@ class Deck
   # and may be unwanted in the resulting symbols
   RANKS = (7..10).to_a + %I[jack queen king ace].freeze
   # All for suits
-  SUITS = %i[♥ ♦ ♣ ♠].freeze
-  # SUITS = %i[hearts diamonds clubs spades].freeze
+  SUITS = %i[♦️ ♠️ ❤️ ♣️].freeze
 
   def self.made_happy(name)
     name.upcase

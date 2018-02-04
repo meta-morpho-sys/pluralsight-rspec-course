@@ -45,6 +45,10 @@ class Card
             end
   end
 
+  def to_s
+    "#{rank}" + "#{suit}"
+  end
+
   def inspect
     to_s
   end
@@ -61,5 +65,3 @@ class Card
     self == other
   end
 end
-
-
