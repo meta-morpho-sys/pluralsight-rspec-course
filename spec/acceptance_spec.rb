@@ -6,28 +6,29 @@ require 'card'
 require 'round'
 require 'ui'
 
-
 BIN = File.expand_path('../../bin/play', __FILE__)
 
 describe 'acceptance', :acceptance do
-  def run_app(seed = 1, &block)
-    puts 'Running before example in acceptance'
-    dir = Dir.tmpdir + '/highcard_test_state'
-    `rm -Rf #{dir}`
-    `mkdir -p #{dir}`
-    ENV['HIGHCARD_DIR'] = dir
-    PTY.spawn(BIN, seed.to_s, &block)
-  end
-
-  example 'it works' do
-    # Launch the game, give it input and verify whether we win or lose
+  example 'it works once stdio buffering is taken into account' do
+    # Launch the game, give it input and verify whether we win.
     # this launches a process and gives us control over input and output strings
-    run_app do |output, input, _pid|
-      sleep 0.5
-      input.write("y\n")
-      sleep 0.5
-      buffer = output.read_nonblock(1024)
-      expect(buffer).to include('You won!').or include('You lost!')
-    end
+
+    # See https://ruby-doc.org/stdlib-2.4.1/libdoc/pty/rdoc/PTY.html
+    # for how this uses pty
+    master, slave = PTY.open
+    read, write = IO.pipe
+    pid = PTY.spawn(BIN, '1', in: read, out: slave)
+
+    read.close     # we dont need the read
+    slave.close    # or the slave
+
+    # ignore first few bits of output
+    master.gets
+    master.gets
+
+    write.puts('y')
+    buffer = master.gets
+    expect(buffer).to include('You won!')
+    write.close
   end
 end

@@ -2,21 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8e9e31c-396d-4019-91fb-09cb98839e4a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Pluralsight_Rspec_course.iml" afterPath="$PROJECT_DIR$/.idea/Pluralsight_Rspec_course.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/astarte.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/astarte.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change beforePath="$PROJECT_DIR$/bin/play" afterPath="$PROJECT_DIR$/bin/play" />
       <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
-      <change beforePath="$PROJECT_DIR$/lib/high_card.rb" afterPath="$PROJECT_DIR$/lib/high_card.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/high_card/banker.rb" afterPath="$PROJECT_DIR$/lib/high_card/banker.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/card.rb" afterPath="$PROJECT_DIR$/lib/card.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/deck.rb" afterPath="$PROJECT_DIR$/lib/deck.rb" />
       <change beforePath="$PROJECT_DIR$/lib/high_card/cli.rb" afterPath="$PROJECT_DIR$/lib/high_card/cli.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/mock_deep_dive.rb" afterPath="$PROJECT_DIR$/lib/mock_deep_dive.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/my_expectations.rb" afterPath="$PROJECT_DIR$/lib/my_expectations.rb" />
       <change beforePath="$PROJECT_DIR$/lib/round.rb" afterPath="$PROJECT_DIR$/lib/round.rb" />
       <change beforePath="$PROJECT_DIR$/lib/ui.rb" afterPath="$PROJECT_DIR$/lib/ui.rb" />
       <change beforePath="$PROJECT_DIR$/spec/acceptance_spec.rb" afterPath="$PROJECT_DIR$/spec/acceptance_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/banker_spec.rb" afterPath="$PROJECT_DIR$/spec/banker_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/card_spec.rb" afterPath="$PROJECT_DIR$/spec/card_spec.rb" />
       <change beforePath="$PROJECT_DIR$/spec/cli_spec.rb" afterPath="$PROJECT_DIR$/spec/cli_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/hand_spec.rb" afterPath="$PROJECT_DIR$/spec/hand_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change beforePath="$PROJECT_DIR$/spec/custom_matchers.rb" afterPath="$PROJECT_DIR$/spec/custom_matchers.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,19 +31,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@card.coverage" NAME="card Coverage Results" MODIFIED="1517418438352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@card.coverage" NAME="card Coverage Results" MODIFIED="1517761033086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_equality__Pluralsight_Rspec_course.coverage" NAME="Card equality: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517762352472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_has_a_seven_as_its_lowest_card__Pluralsight_Rspec_course.coverage" NAME="Deck.all has a seven as its lowest card: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517251812321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@hand_rankings_hand_with_highest_card_wins__Pluralsight_Rspec_course.coverage" NAME="hand rankings hand with highest card wins: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517417942681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@test.coverage" NAME="test Coverage Results" MODIFIED="1517784542941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck__Pluralsight_Rspec_course.coverage" NAME="Deck: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517321898232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@expectations.coverage" NAME="expectations Coverage Results" MODIFIED="1517323983752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_shows_its_happiness__Pluralsight_Rspec_course.coverage" NAME="Deck.all shows its happiness: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517272546395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@acceptance_may_it_works_once_buffering_is_taken_into_account__Pluralsight_Rspec_course.coverage" NAME="acceptance may it works once buffering is taken into account: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517792246720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI__Pluralsight_Rspec_course.coverage" NAME="CLI: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517577094632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Run_spec__banker_spec___Pluralsight_Rspec_course.coverage" NAME="Run spec 'banker_spec': Pluralsight_Rspec_course Coverage Results" MODIFIED="1517700036841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@CLI_it_works__Pluralsight_Rspec_course.coverage" NAME="CLI it works: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517700077807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
-    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course.coverage" NAME="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517745055683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@acceptance_it_works__Pluralsight_Rspec_course.coverage" NAME="acceptance it works: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517792141356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course.coverage" NAME="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517850588344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@bank.coverage" NAME="bank Coverage Results" MODIFIED="1517747779122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course.coverage" NAME="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517851266001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_has_contiguous_ranks_by_suit__Pluralsight_Rspec_course.coverage" NAME="Deck.all has contiguous ranks by suit: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517321893754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_a_jack_ranks_higher_than_a_10__Pluralsight_Rspec_course.coverage" NAME="Card a jack ranks higher than a 10: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517249487459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
-    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@deck.coverage" NAME="deck Coverage Results" MODIFIED="1517310558924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
+    <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@deck.coverage" NAME="deck Coverage Results" MODIFIED="1517785110152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Card_a_queen_ranks_higher_than_a_jack__Pluralsight_Rspec_course.coverage" NAME="Card a queen ranks higher than a jack: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517249577987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Deck_all_contains_a_big_number_of_cards__Pluralsight_Rspec_course.coverage" NAME="Deck.all contains a big number of cards: Pluralsight_Rspec_course Coverage Results" MODIFIED="1517310862293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
     <SUITE FILE_PATH="coverage/Pluralsight_Rspec_course@Run_spec__round_spec___Pluralsight_Rspec_course.coverage" NAME="Run spec 'round_spec': Pluralsight_Rspec_course Coverage Results" MODIFIED="1517576474917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Pluralsight_Rspec_course" />
@@ -55,71 +66,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="banker.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/high_card/banker.rb">
+      <file leaf-file-name="acceptance_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/acceptance_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/card.rb">
+      <file leaf-file-name="play" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/play">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bank.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bank.rb">
+      <file leaf-file-name="deck.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/deck.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="banker_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/banker_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cli.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/high_card/cli.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="round.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/round.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ui.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="45">
+              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -134,6 +105,13 @@
       <find>internal:pre</find>
       <find>as_null_object</find>
       <find>account</find>
+      <find>pipe</find>
+      <find>IO.pipe</find>
+      <find>spawn</find>
+      <find>dev/tty</find>
+      <find>dev</find>
+      <find>dev/ttys007</find>
+      <find>dev/ttys</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,25 +127,28 @@
         <option value="$PROJECT_DIR$/spec/deck_spec.rb" />
         <option value="$PROJECT_DIR$/lib/expectations.rb" />
         <option value="$PROJECT_DIR$/spec/expect_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/custom_matchers.rb" />
-        <option value="$PROJECT_DIR$/spec/card_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/card.rb" />
-        <option value="$PROJECT_DIR$/lib/deck.rb" />
         <option value="$PROJECT_DIR$/spec/round_spec.rb" />
         <option value="$PROJECT_DIR$/spec/ui_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/mock_deep_dive.rb" />
-        <option value="$PROJECT_DIR$/bin/play" />
         <option value="$PROJECT_DIR$/spec/banker_spec.rb" />
         <option value="$PROJECT_DIR$/spec/hand_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/high_card.rb" />
-        <option value="$PROJECT_DIR$/spec/acceptance_spec.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/cli_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/bank.rb" />
-        <option value="$PROJECT_DIR$/lib/high_card/cli.rb" />
-        <option value="$PROJECT_DIR$/lib/ui.rb" />
-        <option value="$PROJECT_DIR$/lib/round.rb" />
         <option value="$PROJECT_DIR$/lib/high_card/banker.rb" />
+        <option value="$PROJECT_DIR$/lib/bank.rb" />
+        <option value="$PROJECT_DIR$/lib/high_card.rb" />
+        <option value="$PROJECT_DIR$/spec/cli_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/test.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/lib/ui.rb" />
+        <option value="$PROJECT_DIR$/lib/deck.rb" />
+        <option value="$PROJECT_DIR$/lib/high_card/cli.rb" />
+        <option value="$PROJECT_DIR$/lib/mock_deep_dive.rb" />
+        <option value="$PROJECT_DIR$/lib/round.rb" />
+        <option value="$PROJECT_DIR$/lib/my_expectations.rb" />
+        <option value="$PROJECT_DIR$/lib/card.rb" />
+        <option value="$PROJECT_DIR$/spec/custom_matchers.rb" />
+        <option value="$PROJECT_DIR$/spec/card_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/acceptance_spec.rb" />
+        <option value="$PROJECT_DIR$/bin/play" />
       </list>
     </option>
   </component>
@@ -177,11 +158,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
     <option name="y" value="22" />
-    <option name="width" value="1228" />
-    <option name="height" value="813" />
+    <option name="width" value="1785" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -193,7 +174,15 @@
           <State>
             <id>General</id>
           </State>
+          <State>
+            <id>Ruby</id>
+          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ruby</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -213,6 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,8 +236,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,12 +244,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spec" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,7 +297,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="CLI it works: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Pluralsight_Rspec_course" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -326,11 +315,11 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/cli_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/acceptance_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CLI it works" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="acceptance it works once stdio buffering is taken into account" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -340,7 +329,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="acceptance it works: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Pluralsight_Rspec_course" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -359,10 +348,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/cli_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/acceptance_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CLI not betting on losing hand" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="acceptance it works" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -372,7 +361,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Run spec 'banker_spec': Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="acceptance may it works once buffering is taken into account: Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="Pluralsight_Rspec_course" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -391,10 +380,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/banker_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/acceptance_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="acceptance may it works once buffering is taken into account" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -404,17 +393,14 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Run spec 'cli_spec': Pluralsight_Rspec_course" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+    <configuration name="deck" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Pluralsight_Rspec_course" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
@@ -422,34 +408,23 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/cli_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/deck.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.CLI not betting on losing hand: Pluralsight_Rspec_course" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.CLI it works: Pluralsight_Rspec_course" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'cli_spec': Pluralsight_Rspec_course" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'banker_spec': Pluralsight_Rspec_course" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.deck" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.acceptance it works: Pluralsight_Rspec_course" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.acceptance may it works once buffering is taken into account: Pluralsight_Rspec_course" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.CLI not betting on losing hand: Pluralsight_Rspec_course" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'cli_spec': Pluralsight_Rspec_course" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.CLI it works: Pluralsight_Rspec_course" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'banker_spec': Pluralsight_Rspec_course" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.acceptance may it works once buffering is taken into account: Pluralsight_Rspec_course" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.acceptance it works: Pluralsight_Rspec_course" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.deck" />
       </list>
     </recent_temporary>
   </component>
@@ -465,62 +440,63 @@
       <option name="presentableId" value="Default" />
       <updated>1517184638413</updated>
       <workItem from="1517184639904" duration="74355000" />
-      <workItem from="1517669004389" duration="18317000" />
+      <workItem from="1517669004389" duration="21720000" />
+      <workItem from="1517757121978" duration="22341000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.02.04 at 01h 10m 36s.xml">
+    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.02.05 at 17h 18m 06s.xml">
       <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.02.04 at 11h 13m 13s.xml">
+    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.02.05 at 17h 20m 44s.xml">
       <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.02.04 at 11h 50m 58s.xml">
+    <history-entry file="All_specs_in_Pluralsight_Rspec_course__Pluralsight_Rspec_course - 2018.02.05 at 17h 21m 08s.xml">
       <configuration name="All specs in Pluralsight_Rspec_course: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 24m 57s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 01m 44s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 25m 06s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 03m 08s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 57m 36s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 03m 42s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 58m 10s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 03m 43s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 58m 35s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 04m 30s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 59m 04s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 09m 43s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="CLI_not_betting_on_losing_hand__Pluralsight_Rspec_course - 2018.02.04 at 00h 59m 23s.xml">
-      <configuration name="CLI not betting on losing hand: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="acceptance_it_works_once_stdio_buffering_is_taken_into_account__Pluralsight_Rspec_course - 2018.02.05 at 17h 10m 55s.xml">
+      <configuration name="acceptance it works once stdio buffering is taken into account: Pluralsight_Rspec_course" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92672000" />
+    <option name="totallyTimeSpent" value="118416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="22" width="1228" height="813" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="813" extended-state="6" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45125347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52089137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2099494" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38579386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18097281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628798" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4665738" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -537,144 +513,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/high_card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/hand_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/play">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/play">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/game_of_life" />
-    <entry file="file://$PROJECT_DIR$/.rspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/matchers/built_in/be.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/matchers/built_in/base_matcher.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-978">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/matchers/built_in/eq.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/matchers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/my_expectations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/matchers/dsl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/expectations/expectation_target.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-support-3.7.0/lib/rspec/support.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/card_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/pty.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="91" column="61" lean-forward="false" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -690,22 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1018">
           <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/expectations/syntax.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -724,36 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/deck.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/ruby/2.4.1_1/lib/ruby/2.4.0/openssl/buffering.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="215" column="30" lean-forward="true" selection-start-line="215" selection-start-column="30" selection-end-line="215" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mock_deep_dive.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/round_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -766,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,59 +586,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/expect_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/custom_matchers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/play">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/acceptance_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/high_card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/expect_spec.rb" />
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="3" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/banker_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,54 +598,234 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="139" column="8" lean-forward="false" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/banker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/high_card/banker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/ruby/2.4.1_1/lib/ruby/2.4.0/openssl/buffering.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="6" lean-forward="false" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/argf.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="290" column="21" lean-forward="false" selection-start-line="290" selection-start-column="8" selection-end-line="290" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/high_card.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-290">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/cli_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="195">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bank.rb">
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/configuration.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="1897" column="0" lean-forward="false" selection-start-line="1897" selection-start-column="0" selection-end-line="1897" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/card.rb">
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/reporter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="118">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/high_card/banker.rb">
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/simplecov-0.15.1/lib/simplecov/defaults.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="216">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rb/testing/patch/bdd/teamcity/spec/runner/formatter/teamcity/formatter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="696" column="0" lean-forward="false" selection-start-line="696" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/runner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/example_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="601" column="0" lean-forward="false" selection-start-line="601" selection-start-column="0" selection-end-line="601" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-support-3.7.0/lib/rspec/support.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="136" column="29" lean-forward="false" selection-start-line="136" selection-start-column="29" selection-end-line="136" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/expectations/syntax.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/builtin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="238" column="7" lean-forward="true" selection-start-line="238" selection-start-column="7" selection-end-line="238" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-core-3.7.0/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/kernel.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="486" column="8" lean-forward="false" selection-start-line="486" selection-start-column="8" selection-end-line="486" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/io.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1266" column="64" lean-forward="true" selection-start-line="1265" selection-start-column="56" selection-end-line="1266" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/pty.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="145" column="48" lean-forward="false" selection-start-line="145" selection-start-column="48" selection-end-line="145" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/typesafe_enum-0.1.8/lib/typesafe_enum.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/typesafe_enum-0.1.8/lib/typesafe_enum/module_info.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/typesafe_enum-0.1.8/lib/typesafe_enum/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/high_card/cli.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -901,7 +833,71 @@
     <entry file="file://$PROJECT_DIR$/lib/round.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/my_expectations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mock_deep_dive.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/custom_matchers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/card.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/card_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/acceptance_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/play">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/deck.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>

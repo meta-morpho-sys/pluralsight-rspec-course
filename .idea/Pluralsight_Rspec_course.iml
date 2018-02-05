@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.15.1, ruby-2.4.1-p111) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov-console (v0.4.2, ruby-2.4.1-p111) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov-html (v0.10.2, ruby-2.4.1-p111) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="typesafe_enum (v0.1.8, ruby-2.4.1-p111) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v1.3.0, ruby-2.4.1-p111) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

@@ -1,9 +1,10 @@
 # User-friendly UI
 class UI
-  def yesno_prompt(message)
+  def wanna_bet_prompt(message)
     print message + ' Y/n? '
     input = $stdin.gets
-    input[0].downcase == 'n'
+    y_or_n  = input[0].downcase
+    y_or_n != 'n'
   end
 
   def puts(message)

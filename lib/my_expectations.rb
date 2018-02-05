@@ -14,7 +14,6 @@ class ExpectationTarget
   end
 end
 
-
 # Stores the EXPECTED value
 class EqMatcher
   def initialize(expected)
@@ -24,9 +23,7 @@ class EqMatcher
   # This is the method that compares the ACTUAL and the EXPECTED, and raises
   # an exception if the two don't match
   def call(actual)
-    if actual != @expected
-      raise "Expected #{@expected}, got #{actual}"
-    end
+    raise "Expected #{@expected}, got #{actual}" unless actual == @expected
   end
 end
 

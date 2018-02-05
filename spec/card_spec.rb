@@ -52,7 +52,6 @@ describe Card, :unit do
           it_behaves_like 'an unequal card'
         end
       end
-
     end
   end
 

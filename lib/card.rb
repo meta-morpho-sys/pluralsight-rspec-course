@@ -1,6 +1,5 @@
 # a card
 class Card
-
   include Enumerable
   attr_reader :rank, :suit
 
@@ -46,7 +45,8 @@ class Card
   end
 
   def to_s
-    "#{rank}" + "#{suit}"
+    # "#{rank}" + "#{suit} "
+    rank.to_s + suit.to_s
   end
 
   def inspect

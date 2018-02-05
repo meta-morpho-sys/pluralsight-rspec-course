@@ -5,7 +5,7 @@
 def setup_expectation(obj, method)
   # If we want to know whether the method was called successfully, we need
   # to raise an error that will tell us when we failed to call the method.
-  # To do that we also need to store whether we expected  the method to be called
+  # To do that we also need to store whether we expected the method to be called
   $expectations << [obj, method]
   # This code add a method `hello` to ONLY this particular instance
   obj.singleton_class.send(:define_method, method) do
@@ -38,4 +38,3 @@ ensure
 end
 
 obj.hello
-

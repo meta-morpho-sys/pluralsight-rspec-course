@@ -14,7 +14,6 @@ module MyCustomMatcherExperiments
   end
 end
 
-
 module ArrayMatchers
   extend RSpec::Matchers::DSL
   matcher :be_contiguous_by do
