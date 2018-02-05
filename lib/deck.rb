@@ -1,4 +1,20 @@
 require_relative 'card'
+require 'typesafe_enum'
+
+# Implements suits and pips. Based on Ruby implementation of Joshua Bloch's
+# typesafe enum pattern
+class Suit < TypesafeEnum::Base
+  new :HEARTS
+  new :CLUBS
+  new :DIAMONDS
+  new :SPADES
+
+  ALL_PIPS = %i[♦️ ♠️ ❤️ ♣️].freeze
+
+  def pip
+    ALL_PIPS[ord]
+  end
+end
 
 #  class deck
 class Deck
@@ -7,7 +23,7 @@ class Deck
   # and may be unwanted in the resulting symbols
   RANKS = (7..10).to_a + %I[jack queen king ace].freeze
   # All for suits
-  SUITS = %i[♦️ ♠️ ❤️ ♣️].freeze
+  SUITS = Suit.to_a.map(&:pip)
 
   def self.made_happy(name)
     name.upcase
@@ -24,6 +40,8 @@ class Deck
 
   # Creates a deck by accessing the class method all and shuffles the cards.
   def initialize
+    # puts "Shuffling now!"
+    # puts Kernel.caller
     @cards = self.class.all.shuffle
   end
 
