@@ -1,6 +1,7 @@
 # User-friendly UI
 class UI
-  def wanna_bet_prompt(message)
+  # returns true or false depending on user's input
+  def wanna_bet?(message)
     print message + ' Y/n? '
     input = $stdin.gets
     y_or_n  = input[0].downcase

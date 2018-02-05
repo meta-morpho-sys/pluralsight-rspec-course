@@ -31,7 +31,7 @@ module HighCard
 
       ui.puts "Your hand is  #{hand.join(', ')}"
       start = Time.now
-      input = ui.wanna_bet_prompt('Bet $1 to win?')
+      input = ui.wanna_bet?('Bet $1 to win?')
       if Round.win?(input, hand, opposing)
         ui.puts 'You won!'
         account.adjust!(1)
